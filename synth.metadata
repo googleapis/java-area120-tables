@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-area120-tables.git",
-        "sha": "3f2029a419000136e90963150dd26ab946cd65af"
+        "sha": "c8a8e942fef08ea878dd48bac0f33af4a28313ed"
       }
     },
     {
@@ -19,7 +19,7 @@
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "80003a3de2d8a75f5b47cb2e77e018f7f0f776cc"
+        "sha": "916c10e8581804df2b48a0f0457d848f3faa582e"
       }
     }
   ],
@@ -92,7 +92,6 @@
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "LICENSE",
-    "README.md",
     "codecov.yaml",
     "google-area120-tables/src/main/java/com/google/area120/tables/v1alpha/TablesServiceClient.java",
     "google-area120-tables/src/main/java/com/google/area120/tables/v1alpha/TablesServiceSettings.java",

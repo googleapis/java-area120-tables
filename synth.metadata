@@ -4,15 +4,15 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-area120-tables.git",
-        "sha": "9edb28640de93d190ba82fff8a25ca19d6978850"
+        "sha": "13f3d34d29af95e711b13af9b68f127e81617b04"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "3293ef20c714bb005f6a9c987e2ae8a1ad745272",
-        "internalRef": "330824843"
+        "sha": "b11a87f3b54be3a5e42c15020ee1e0781f86da90",
+        "internalRef": "344134135"
       }
     },
     {

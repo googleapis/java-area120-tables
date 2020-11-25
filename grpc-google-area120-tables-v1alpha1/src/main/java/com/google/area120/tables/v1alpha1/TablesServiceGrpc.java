@@ -22,18 +22,7 @@ import static io.grpc.stub.ClientCalls.futureUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/**
- *
- *
- * <pre>
- * The Tables Service provides an API for reading and updating tables.
- * It defines the following resource model:
- * - The API has a collection of [Table][google.area120.tables.v1alpha1.Table]
- *   resources, named `tables/&#42;`
- * - Each Table has a collection of [Row][google.area120.tables.v1alpha1.Row]
- *   resources, named `tables/&#42;&#47;rows/&#42;`
- * </pre>
- */
+/** */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler",
     comments = "Source: google/area120/tables/v1alpha1/tables.proto")
@@ -491,40 +480,17 @@ public final class TablesServiceGrpc {
     return TablesServiceFutureStub.newStub(factory, channel);
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * The Tables Service provides an API for reading and updating tables.
-   * It defines the following resource model:
-   * - The API has a collection of [Table][google.area120.tables.v1alpha1.Table]
-   *   resources, named `tables/&#42;`
-   * - Each Table has a collection of [Row][google.area120.tables.v1alpha1.Row]
-   *   resources, named `tables/&#42;&#47;rows/&#42;`
-   * </pre>
-   */
+  /** */
   public abstract static class TablesServiceImplBase implements io.grpc.BindableService {
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public void getTable(
         com.google.area120.tables.v1alpha1.GetTableRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Table> responseObserver) {
       asyncUnimplementedUnaryCall(getGetTableMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists tables for the user.
-     * </pre>
-     */
+    /** */
     public void listTables(
         com.google.area120.tables.v1alpha1.ListTablesRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.ListTablesResponse>
@@ -532,26 +498,14 @@ public final class TablesServiceGrpc {
       asyncUnimplementedUnaryCall(getListTablesMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a row. Returns NOT_FOUND if the row does not exist in the table.
-     * </pre>
-     */
+    /** */
     public void getRow(
         com.google.area120.tables.v1alpha1.GetRowRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Row> responseObserver) {
       asyncUnimplementedUnaryCall(getGetRowMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists rows in a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public void listRows(
         com.google.area120.tables.v1alpha1.ListRowsRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.ListRowsResponse>
@@ -559,26 +513,14 @@ public final class TablesServiceGrpc {
       asyncUnimplementedUnaryCall(getListRowsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a row.
-     * </pre>
-     */
+    /** */
     public void createRow(
         com.google.area120.tables.v1alpha1.CreateRowRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Row> responseObserver) {
       asyncUnimplementedUnaryCall(getCreateRowMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates multiple rows.
-     * </pre>
-     */
+    /** */
     public void batchCreateRows(
         com.google.area120.tables.v1alpha1.BatchCreateRowsRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.BatchCreateRowsResponse>
@@ -586,26 +528,14 @@ public final class TablesServiceGrpc {
       asyncUnimplementedUnaryCall(getBatchCreateRowsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a row.
-     * </pre>
-     */
+    /** */
     public void updateRow(
         com.google.area120.tables.v1alpha1.UpdateRowRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Row> responseObserver) {
       asyncUnimplementedUnaryCall(getUpdateRowMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates multiple rows.
-     * </pre>
-     */
+    /** */
     public void batchUpdateRows(
         com.google.area120.tables.v1alpha1.BatchUpdateRowsRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.BatchUpdateRowsResponse>
@@ -613,13 +543,7 @@ public final class TablesServiceGrpc {
       asyncUnimplementedUnaryCall(getBatchUpdateRowsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a row.
-     * </pre>
-     */
+    /** */
     public void deleteRow(
         com.google.area120.tables.v1alpha1.DeleteRowRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
@@ -691,18 +615,7 @@ public final class TablesServiceGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * The Tables Service provides an API for reading and updating tables.
-   * It defines the following resource model:
-   * - The API has a collection of [Table][google.area120.tables.v1alpha1.Table]
-   *   resources, named `tables/&#42;`
-   * - Each Table has a collection of [Row][google.area120.tables.v1alpha1.Row]
-   *   resources, named `tables/&#42;&#47;rows/&#42;`
-   * </pre>
-   */
+  /** */
   public static final class TablesServiceStub
       extends io.grpc.stub.AbstractAsyncStub<TablesServiceStub> {
     private TablesServiceStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -714,13 +627,7 @@ public final class TablesServiceGrpc {
       return new TablesServiceStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public void getTable(
         com.google.area120.tables.v1alpha1.GetTableRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Table> responseObserver) {
@@ -728,13 +635,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getGetTableMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists tables for the user.
-     * </pre>
-     */
+    /** */
     public void listTables(
         com.google.area120.tables.v1alpha1.ListTablesRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.ListTablesResponse>
@@ -743,13 +644,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getListTablesMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a row. Returns NOT_FOUND if the row does not exist in the table.
-     * </pre>
-     */
+    /** */
     public void getRow(
         com.google.area120.tables.v1alpha1.GetRowRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Row> responseObserver) {
@@ -757,13 +652,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getGetRowMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists rows in a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public void listRows(
         com.google.area120.tables.v1alpha1.ListRowsRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.ListRowsResponse>
@@ -772,13 +661,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getListRowsMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a row.
-     * </pre>
-     */
+    /** */
     public void createRow(
         com.google.area120.tables.v1alpha1.CreateRowRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Row> responseObserver) {
@@ -786,13 +669,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getCreateRowMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates multiple rows.
-     * </pre>
-     */
+    /** */
     public void batchCreateRows(
         com.google.area120.tables.v1alpha1.BatchCreateRowsRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.BatchCreateRowsResponse>
@@ -803,13 +680,7 @@ public final class TablesServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a row.
-     * </pre>
-     */
+    /** */
     public void updateRow(
         com.google.area120.tables.v1alpha1.UpdateRowRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.Row> responseObserver) {
@@ -817,13 +688,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getUpdateRowMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates multiple rows.
-     * </pre>
-     */
+    /** */
     public void batchUpdateRows(
         com.google.area120.tables.v1alpha1.BatchUpdateRowsRequest request,
         io.grpc.stub.StreamObserver<com.google.area120.tables.v1alpha1.BatchUpdateRowsResponse>
@@ -834,13 +699,7 @@ public final class TablesServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a row.
-     * </pre>
-     */
+    /** */
     public void deleteRow(
         com.google.area120.tables.v1alpha1.DeleteRowRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
@@ -849,18 +708,7 @@ public final class TablesServiceGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * The Tables Service provides an API for reading and updating tables.
-   * It defines the following resource model:
-   * - The API has a collection of [Table][google.area120.tables.v1alpha1.Table]
-   *   resources, named `tables/&#42;`
-   * - Each Table has a collection of [Row][google.area120.tables.v1alpha1.Row]
-   *   resources, named `tables/&#42;&#47;rows/&#42;`
-   * </pre>
-   */
+  /** */
   public static final class TablesServiceBlockingStub
       extends io.grpc.stub.AbstractBlockingStub<TablesServiceBlockingStub> {
     private TablesServiceBlockingStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -873,127 +721,62 @@ public final class TablesServiceGrpc {
       return new TablesServiceBlockingStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.Table getTable(
         com.google.area120.tables.v1alpha1.GetTableRequest request) {
       return blockingUnaryCall(getChannel(), getGetTableMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists tables for the user.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.ListTablesResponse listTables(
         com.google.area120.tables.v1alpha1.ListTablesRequest request) {
       return blockingUnaryCall(getChannel(), getListTablesMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a row. Returns NOT_FOUND if the row does not exist in the table.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.Row getRow(
         com.google.area120.tables.v1alpha1.GetRowRequest request) {
       return blockingUnaryCall(getChannel(), getGetRowMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists rows in a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.ListRowsResponse listRows(
         com.google.area120.tables.v1alpha1.ListRowsRequest request) {
       return blockingUnaryCall(getChannel(), getListRowsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a row.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.Row createRow(
         com.google.area120.tables.v1alpha1.CreateRowRequest request) {
       return blockingUnaryCall(getChannel(), getCreateRowMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates multiple rows.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.BatchCreateRowsResponse batchCreateRows(
         com.google.area120.tables.v1alpha1.BatchCreateRowsRequest request) {
       return blockingUnaryCall(getChannel(), getBatchCreateRowsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a row.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.Row updateRow(
         com.google.area120.tables.v1alpha1.UpdateRowRequest request) {
       return blockingUnaryCall(getChannel(), getUpdateRowMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates multiple rows.
-     * </pre>
-     */
+    /** */
     public com.google.area120.tables.v1alpha1.BatchUpdateRowsResponse batchUpdateRows(
         com.google.area120.tables.v1alpha1.BatchUpdateRowsRequest request) {
       return blockingUnaryCall(getChannel(), getBatchUpdateRowsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a row.
-     * </pre>
-     */
+    /** */
     public com.google.protobuf.Empty deleteRow(
         com.google.area120.tables.v1alpha1.DeleteRowRequest request) {
       return blockingUnaryCall(getChannel(), getDeleteRowMethod(), getCallOptions(), request);
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * The Tables Service provides an API for reading and updating tables.
-   * It defines the following resource model:
-   * - The API has a collection of [Table][google.area120.tables.v1alpha1.Table]
-   *   resources, named `tables/&#42;`
-   * - Each Table has a collection of [Row][google.area120.tables.v1alpha1.Row]
-   *   resources, named `tables/&#42;&#47;rows/&#42;`
-   * </pre>
-   */
+  /** */
   public static final class TablesServiceFutureStub
       extends io.grpc.stub.AbstractFutureStub<TablesServiceFutureStub> {
     private TablesServiceFutureStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -1006,26 +789,14 @@ public final class TablesServiceGrpc {
       return new TablesServiceFutureStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.Table>
         getTable(com.google.area120.tables.v1alpha1.GetTableRequest request) {
       return futureUnaryCall(getChannel().newCall(getGetTableMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists tables for the user.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.ListTablesResponse>
         listTables(com.google.area120.tables.v1alpha1.ListTablesRequest request) {
@@ -1033,52 +804,28 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getListTablesMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets a row. Returns NOT_FOUND if the row does not exist in the table.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.Row>
         getRow(com.google.area120.tables.v1alpha1.GetRowRequest request) {
       return futureUnaryCall(getChannel().newCall(getGetRowMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists rows in a table. Returns NOT_FOUND if the table does not exist.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.ListRowsResponse>
         listRows(com.google.area120.tables.v1alpha1.ListRowsRequest request) {
       return futureUnaryCall(getChannel().newCall(getListRowsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a row.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.Row>
         createRow(com.google.area120.tables.v1alpha1.CreateRowRequest request) {
       return futureUnaryCall(getChannel().newCall(getCreateRowMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates multiple rows.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.BatchCreateRowsResponse>
         batchCreateRows(com.google.area120.tables.v1alpha1.BatchCreateRowsRequest request) {
@@ -1086,26 +833,14 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getBatchCreateRowsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a row.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.Row>
         updateRow(com.google.area120.tables.v1alpha1.UpdateRowRequest request) {
       return futureUnaryCall(getChannel().newCall(getUpdateRowMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates multiple rows.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.area120.tables.v1alpha1.BatchUpdateRowsResponse>
         batchUpdateRows(com.google.area120.tables.v1alpha1.BatchUpdateRowsRequest request) {
@@ -1113,13 +848,7 @@ public final class TablesServiceGrpc {
           getChannel().newCall(getBatchUpdateRowsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a row.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<com.google.protobuf.Empty> deleteRow(
         com.google.area120.tables.v1alpha1.DeleteRowRequest request) {
       return futureUnaryCall(getChannel().newCall(getDeleteRowMethod(), getCallOptions()), request);

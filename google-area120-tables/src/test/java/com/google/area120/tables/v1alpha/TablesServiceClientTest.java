@@ -106,7 +106,7 @@ public class TablesServiceClientTest {
     Table expectedResponse =
         Table.newBuilder()
             .setName("name3373707")
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .addAllColumns(new ArrayList<ColumnDescription>())
             .build();
     mockTablesService.addResponse(expectedResponse);
@@ -154,7 +154,7 @@ public class TablesServiceClientTest {
     ListTablesRequest request =
         ListTablesRequest.newBuilder()
             .setPageSize(883849137)
-            .setPageToken("page_token1630607433")
+            .setPageToken("pageToken873572522")
             .build();
 
     ListTablesPagedResponse pagedListResponse = client.listTables(request);
@@ -185,7 +185,7 @@ public class TablesServiceClientTest {
       ListTablesRequest request =
           ListTablesRequest.newBuilder()
               .setPageSize(883849137)
-              .setPageToken("page_token1630607433")
+              .setPageToken("pageToken873572522")
               .build();
       client.listTables(request);
       Assert.fail("No exception raised");

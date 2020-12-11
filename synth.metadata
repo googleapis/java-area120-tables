@@ -4,15 +4,15 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-area120-tables.git",
-        "sha": "2ba6fe911441b531d0d209e7fdff176fdbb0b768"
+        "sha": "b52872d686636287b5a2e7c1de05c1a12904278f"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "3293ef20c714bb005f6a9c987e2ae8a1ad745272",
-        "internalRef": "330824843"
+        "sha": "46ef525a8da090173ef10d76aeacfb59c6c7c644",
+        "internalRef": "346115388"
       }
     },
     {
@@ -144,7 +144,6 @@
     "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/RowName.java",
     "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/RowOrBuilder.java",
     "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/Table.java",
-    "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/TableName.java",
     "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/TableOrBuilder.java",
     "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/TablesProto.java",
     "proto-google-area120-tables-v1alpha1/src/main/java/com/google/area120/tables/v1alpha1/UpdateRowRequest.java",

@@ -367,7 +367,7 @@ public class TablesServiceClient implements BackgroundResource {
    * Updates a row.
    *
    * @param row Required. The row to update.
-   * @param update_mask The list of fields to update.
+   * @param updateMask The list of fields to update.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final Row updateRow(Row row, FieldMask updateMask) {

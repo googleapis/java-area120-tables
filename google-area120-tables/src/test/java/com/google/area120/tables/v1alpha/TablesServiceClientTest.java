@@ -42,6 +42,7 @@ import com.google.area120.tables.v1alpha1.ListTablesResponse;
 import com.google.area120.tables.v1alpha1.Row;
 import com.google.area120.tables.v1alpha1.RowName;
 import com.google.area120.tables.v1alpha1.Table;
+import com.google.area120.tables.v1alpha1.TableName;
 import com.google.area120.tables.v1alpha1.UpdateRowRequest;
 import com.google.common.collect.Lists;
 import com.google.protobuf.AbstractMessage;
@@ -105,7 +106,7 @@ public class TablesServiceClientTest {
   public void getTableTest() throws Exception {
     Table expectedResponse =
         Table.newBuilder()
-            .setName("name3373707")
+            .setName(TableName.of("[TABLE]").toString())
             .setDisplayName("displayName1714148973")
             .addAllColumns(new ArrayList<ColumnDescription>())
             .build();

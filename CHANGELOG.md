@@ -1,5 +1,18 @@
 # Changelog
 
+### [0.3.2](https://www.github.com/googleapis/java-area120-tables/compare/v0.3.1...v0.3.2) (2021-07-15)
+
+
+### Bug Fixes
+
+* Add `shopt -s nullglob` to dependencies script ([#1130](https://www.github.com/googleapis/java-area120-tables/issues/1130)) ([#190](https://www.github.com/googleapis/java-area120-tables/issues/190)) ([f003d28](https://www.github.com/googleapis/java-area120-tables/commit/f003d2803b3f235d2c5998ee80e76171c9a23914))
+* owlbot post-processor should generate README ([#1154](https://www.github.com/googleapis/java-area120-tables/issues/1154)) ([#196](https://www.github.com/googleapis/java-area120-tables/issues/196)) ([2bf8d91](https://www.github.com/googleapis/java-area120-tables/commit/2bf8d910cc3ac547d7b1840afd557ff28743884e)), closes [#1146](https://www.github.com/googleapis/java-area120-tables/issues/1146) [#1147](https://www.github.com/googleapis/java-area120-tables/issues/1147)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1.4.0 ([#192](https://www.github.com/googleapis/java-area120-tables/issues/192)) ([a49d2c4](https://www.github.com/googleapis/java-area120-tables/commit/a49d2c456e5646ce8f3783649f382573b0283b67))
+
 ### [0.3.1](https://www.github.com/googleapis/java-area120-tables/compare/v0.3.0...v0.3.1) (2021-06-04)
 
 

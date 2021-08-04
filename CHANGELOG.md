@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/googleapis/java-area120-tables/compare/v0.3.1...v0.4.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#211](https://www.github.com/googleapis/java-area120-tables/issues/211)) ([442ac85](https://www.github.com/googleapis/java-area120-tables/commit/442ac8599905b74eacc52d84bf86d81a056ce984))
+
 ### [0.3.1](https://www.github.com/googleapis/java-area120-tables/compare/v0.3.0...v0.3.1) (2021-06-04)
 
 

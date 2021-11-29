@@ -268,8 +268,7 @@ public final class TablesProto {
           + "chDeleteRowsRequest\032\026.google.protobuf.Em"
           + "pty\"7\202\323\344\223\0021\",/v1alpha1/{parent=tables/*}"
           + "/rows:batchDelete:\001*\032\254\002\312A\034area120tables."
-          + "googleapis.com\322A\211\002https://www.googleapis"
-          + ".com/auth/drive,https://www.googleapis.com/auth/drive.file,https://www.googleapis.com/auth/drive.readonly,https://www.googleapis.com/auth/spreadsheets,https://www.googleapis.com/auth/spreadsheets.readonly,https://www.googleapis.com/auth/tablesBy\n"
+          + "googleapis.com\322A\211\002https://www.googleapis.com/auth/drive,https://www.googleapis.com/auth/drive.file,https://www.googleapis.com/auth/drive.readonly,https://www.googleapis.com/auth/spreadsheets,https://www.googleapis.com/auth/spreadsheets.readonly,https://www.googleapis.com/auth/tablesBy\n"
           + "\"com.google.area120.tables.v1alpha1B\013TablesProtoP\001ZDgoogle.golang.org/genp"
           + "roto/googleapis/area120/tables/v1alpha1;tablesb\006proto3"
     };

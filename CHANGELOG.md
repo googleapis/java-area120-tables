@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.8](https://github.com/googleapis/java-area120-tables/compare/v0.7.7...v0.7.8) (2022-10-04)
+
+
+### Bug Fixes
+
+* update protobuf to v3.21.7 ([2b65bb0](https://github.com/googleapis/java-area120-tables/commit/2b65bb04d95c3777143054949e4c526424112bf3))
+
 ## [0.7.7](https://github.com/googleapis/java-area120-tables/compare/v0.7.6...v0.7.7) (2022-10-03)
 
 

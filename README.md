@@ -12,6 +12,13 @@ Java idiomatic client for [Area 120 Tables][product-docs].
 > make backwards-incompatible changes.
 
 
+:bus: In October 2022, this library has moved to
+[google-cloud-java/java-area120-tables](
+https://github.com/googleapis/google-cloud-java/tree/main/java-area120-tables).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (`com.google.area120:google-area120-tables`) remain the same.
+
 ## Quickstart
 
 
@@ -22,20 +29,20 @@ If you are using Maven, add this to your pom.xml file:
 <dependency>
   <groupId>com.google.area120</groupId>
   <artifactId>google-area120-tables</artifactId>
-  <version>0.7.8</version>
+  <version>0.9.0</version>
 </dependency>
 ```
 
 If you are using Gradle without BOM, add this to your dependencies:
 
 ```Groovy
-implementation 'com.google.area120:google-area120-tables:0.7.8'
+implementation 'com.google.area120:google-area120-tables:0.9.0'
 ```
 
 If you are using SBT, add this to your dependencies:
 
 ```Scala
-libraryDependencies += "com.google.area120" % "google-area120-tables" % "0.7.8"
+libraryDependencies += "com.google.area120" % "google-area120-tables" % "0.9.0"
 ```
 
 ## Authentication
